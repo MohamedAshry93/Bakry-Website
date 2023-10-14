@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clear-fix{
+    clear: both;
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.navbar{
+    background-color: transparent;
+    font-family: 'Alegreya', serif;
+}
+.navlogo{
+    /* background-color: aqua; */
+    width: 20%;
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.navlogo img{
+    width: 100%;
+}
+.navmenu{
+    /* background-color: blue; */
+    width: 60%;
+    float: right;
+    padding-right: 0px;
+    color: #fff;
+    /* padding-left: 200px; */
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.navmenu ul{
+    /* background-color: aquamarine; */
+    list-style:  none;
+    /* width: 100%; */
+    /* margin-right: 0px; */
+    padding: 0px 40px;
+    /* text-align: center; */
+    
+}
+.navmenu ul li{
+    /* background-color: teal; */
+    width: 16.6%;
+    float: left;
+    /* margin: 50px auto;
+    text-align: center; */
+}
+.navmenu ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.home-content{
+    /* background-color: bisque; */
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 90px 0px; 
+    color: #fff;
+}
+.home-content p{
+    font-size: 24px;
+}
+span{
+    font-size: 22px;
+}
+h1{
+    padding: 20px 0px;
+    font-weight: 400;
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    /* background-color: red; */
+}
+.home-content button{
+    margin: 50px 5px;
+    padding: 15px 28px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn1{
+    border: 1px solid transparent;
+    background-color: #8e7754;
+}
+.btn2{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.whoWeAre{
+    /* background-color: violet; */
+    margin-bottom: 80px;
+    margin-top: 42px;
+}
+.section1-img{
+    /* background-color: gold; */
+    width: 40%;
+    padding-top: 60px;
+    padding-left: 150px;
+    float: left;
+}
+.section1-img img{
+    width: 95%;
+}
+.section1-whoWeAre{
+    /* background-color: greenyellow; */
+    width: 45%;
+    float: left;
+    padding-top: 120px;
+    padding-left: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.text1-img{
+    /* background-color: darkred; */
+    width: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    float: left;
+}
+.text1-img ul{
+    /* padding-bottom: 90px; */
+}
+.text1-p{
+    /* background-color: blueviolet; */
+    float: left;
+    width: 90%;
+    padding-top: 40px;
+    font-size: 17px;
+}
+.ul-li1{
+    list-style: none;
+    width: 100%;
+}
+.ul-li1 img{
+    width: 65%;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+}
+.text1-p ul{
+    list-style: none;
+    margin-left: 0px;
+}
+.ul-li2 p{
+   padding: 15px 0px 27px 0px;
+   margin-bottom: 2px;
+}
+.text1 h2{
+    padding-bottom: 50px;
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+}
+.ourlocation{
+    background-color: #f8f8f8;
+    margin-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.section2-text{
+    /* background-color: tomato; */
+    float: left;
+    width: 40%;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.section2-text h2{
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+}
+.section2-text p{
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.section2-img{
+    /* background-color: darkslateblue; */
+    float: right;
+    width: 40%;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.section2-img img{
+    width: 90%;
+}
+.ourbaking{
+    /* background-color: yellow; */
+    text-align: center;
+    margin-top: 100px;
+    /* padding-top: 30px; */
+}
+.ourbaking h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+}
+.ourbaking p{
+    padding-bottom: 50px;
+}
+.ourbaking-item{
+    /* background-color: springgreen; */
+    width: 25%;
+    display: inline-block;
+    padding: 20px 15px;
+}
+.ourbaking-item h3{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+}
+.ourbaking-item img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.ourbaking-item p{
+    padding-top: 25px;
+    font-size: 17px;
+}
+.information{
+    background-color: #f8f8f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.info-text{
+    /* background-color: bisque; */
+    width: 45%;
+    float: left;
+    margin-left: 100px;
+    padding-left: 30px;
+}
+.info-text h3{
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+}
+.info-text p{
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+.info-img{
+    /* background-color: tan; */
+    width: 35%;
+    float: right;
+    margin-right: 90px;
+
+}
+.info-img img{
+    width: 95%;
+}
+.info-data{
+    /* background-color: springgreen; */
+}
+.icon{
+    /* background-color: skyblue; */
+    float: left;
+    width: 44px;
+    list-style: none;
+
+}
+.icon li{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.icon img{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    background-color: #8e7754;
+}
+.contact{
+    /* background-color: brown; */
+    float: left;
+    width: 40%;
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.contact li{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.details{
+    background-image: url(images/contact-details-map.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #403D38;
+    /* color: rgba(255, 255, 255, 0.34); */
+}
+.section4{
+    /* background-color: royalblue; */
+    width: 100%;
+    margin: auto;
+    color: #969696;
+    background-color: transparent;
+    padding: 50px 0px;
+}
+.section4 li{
+    padding: 20px 0px;
+    font-size: 16px;
+}
+.section4 hr{
+    margin-bottom: 5px;
+}
+.section4 img{
+    width: 76%;
+    padding-bottom: 0px;
+}
+.section4 div{
+    width: 20%;
+}
+.section4 h4{
+    margin-bottom: 40px;
+    color: #fff;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+}
+.section4 ul{
+    list-style: none;
+}
+.AboutUs{
+    /* background-color: chocolate; */
+    float: left;
+    margin-left: 90px;
+}
+.AboutUs p{
+    padding: 15px 0px;
+}
+.Why-we-are-special{
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 20px;
+    /* width: 100%; */
+}
+.Why-we-are-special ul{
+    list-style: none;
+}
+.arrow{
+    float: left;
+    width: 9%;
+}
+.arrow-line{
+    float: left;
+    width: 80%;
+    /* margin-bottom: 70px; */
+}
+.Opening-Hours{
+    /* background-color: teal; */
+    float: left;
+    margin-right: 20px;
+}
+.Opening-Hours ul{
+    list-style: none;
+}
+.contact-details{
+    /* background-color: #09c; */
+    float: left;
+}
+.ul-img{
+    width: 13%;
+    float: left;
+}
+.ul-img li{
+    padding-bottom: 10px;
+}
+.ul-img img{
+    width: 80%;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.ul-text{
+    width: 85%;
+    float: left;
+}
+.ul-text li{
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #353330;
+    ;
+    padding-top: 60px;
+}
+.footer h6{
+    font-size: 15px;
+    color: #777;
+}
+.footer-content img{
+    width: 25%;
+    margin-bottom: 30px;
+}
+.footer-content{
+    margin: auto;
+    text-align: center;
+}
+.footerimg{
+    margin: auto;
+    text-align: center;
+    /* color: #8c8a86; */
+}
+.footerimg img{
+    width: 4%;
+    margin-top: 30px;
+    border: 1px solid #484540;
+    border-radius: 100%;
+    margin-bottom: 60px;
+}
